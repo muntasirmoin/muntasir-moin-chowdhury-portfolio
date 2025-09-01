@@ -8,6 +8,7 @@ import About from "@/pages/about/About";
 import Projects from "@/pages/projects/Projects";
 import Contact from "@/pages/contacts/Contacts";
 import Skills from "@/pages/skills/Skills";
+import Blog from "@/pages/blog/Blog";
 
 interface IProps {
   children: ReactNode;
@@ -22,6 +23,7 @@ const CommonLayout = ({ children }: IProps) => {
       <Skills />
       <About />
       <Education />
+      <Blog />
       <Contact />
       <div className="flex-grow">{children}</div>
       <Footer />
