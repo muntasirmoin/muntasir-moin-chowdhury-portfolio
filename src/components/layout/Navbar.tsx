@@ -78,9 +78,9 @@ export default function Navbar() {
 
           {/* Logo */}
           <a
-            href="https://i.ibb.co/xLWByLs/mlogo.png"
+            href="/"
             className="text-primary hover:text-primary/90"
-            target="_blank"
+            // target="_blank"
             rel="noopener noreferrer"
           >
             <img
