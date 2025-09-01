@@ -1,24 +1,44 @@
 import { FaCheckCircle } from "react-icons/fa";
 
 const frontendSkills = [
-  { title: "React", subtitle: "Building interactive and reusable UIs" },
-  { title: "TypeScript", subtitle: "Typed JavaScript for robust code" },
-  { title: "Tailwind CSS", subtitle: "Utility-first styling for rapid UI" },
-  { title: "ShadCN UI", subtitle: "Accessible, elegant component library" },
+  {
+    title: "React",
+    subtitle: "Dynamic, reusable, and maintainable UI components.",
+  },
+  {
+    title: "TypeScript",
+    subtitle: "Building robust, type-safe applications in JavaScript.",
+  },
+  {
+    title: "Tailwind CSS",
+    subtitle: "Utility-first CSS framework for building responsive UIs.",
+  },
+  // { title: "ShadCN UI", subtitle: "Accessible, elegant component library" },
   {
     title: "Redux Toolkit",
-    subtitle: "Simplified and scalable state management",
+    subtitle: "Simplified and scalable state management.",
   },
-  { title: "React Router", subtitle: "Client-side routing for SPA" },
+  {
+    title: "React Router",
+    subtitle: "Page-based routing for modern React applications",
+  },
+  {
+    title: "Axios",
+    subtitle: "Promise-based HTTP client for API requests.",
+  },
 ];
 
 const backendSkills = [
-  { title: "Node.js", subtitle: "Server-side JavaScript runtime" },
-  { title: "Express.js", subtitle: "Minimalist web framework for APIs" },
-  { title: "MongoDB", subtitle: "Flexible NoSQL database" },
-  { title: "Mongoose", subtitle: "Elegant MongoDB ODM for schemas" },
-  { title: "JWT", subtitle: "Secure JSON Web Token authentication" },
-  { title: "TypeScript", subtitle: "Typed backend code for scalability" },
+  {
+    title: "Node.js",
+    subtitle: "JavaScript runtime for server-side development.",
+  },
+  { title: "Express.js", subtitle: "Minimalist web framework for APIs." },
+  { title: "MongoDB", subtitle: "Flexible NoSQL database." },
+  // { title: "Mongoose", subtitle: "Elegant MongoDB ODM for schemas" },
+  { title: "JWT", subtitle: "Secure JSON Web Token authentication." },
+  { title: "TypeScript", subtitle: "Typed backend code for scalability." },
+  { title: "Zod", subtitle: "Type-safe schema validation." },
 ];
 
 const Skills = () => {

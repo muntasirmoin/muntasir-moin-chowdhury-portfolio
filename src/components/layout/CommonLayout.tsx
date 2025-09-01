@@ -19,8 +19,8 @@ const CommonLayout = ({ children }: IProps) => {
       <Navbar />
       <Banner />
       <Projects />
-      <About />
       <Skills />
+      <About />
       <Education />
       <Contact />
       <div className="flex-grow">{children}</div>
