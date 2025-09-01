@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { projectData } from "./projectData";
 
 const Projects = () => {
@@ -82,6 +83,12 @@ const Projects = () => {
                   >
                     Backend Code
                   </a>
+                  <Link
+                    to={`${project.details}`}
+                    className="px-4 py-2 bg-green-600 font-bold hover:bg-green-700 text-white rounded-md text-sm transition"
+                  >
+                    View Details
+                  </Link>
                 </div>
               </div>
               <br />

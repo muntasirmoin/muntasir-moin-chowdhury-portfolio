@@ -1,4 +1,7 @@
 import App from "@/App";
+import AcademyDetails from "@/pages/projects/AcademyDetails";
+import EwalletDetails from "@/pages/projects/EwalletDetails";
+import ToyDetails from "@/pages/projects/ToyDetails";
 import { createBrowserRouter } from "react-router";
 
 export const router = createBrowserRouter([
@@ -10,10 +13,6 @@ export const router = createBrowserRouter([
       //   {
       //     Component: Home,
       //     index: true,
-      //   },
-      //   {
-      //     Component: About,
-      //     path: "about",
       //   },
       //   {
       //     Component: Features,
@@ -32,5 +31,17 @@ export const router = createBrowserRouter([
       //     path: "our-team",
       //   },
     ],
+  },
+  {
+    Component: EwalletDetails,
+    path: "/wallet-details",
+  },
+  {
+    Component: AcademyDetails,
+    path: "/academy-details",
+  },
+  {
+    Component: ToyDetails,
+    path: "/toy-details",
   },
 ]);

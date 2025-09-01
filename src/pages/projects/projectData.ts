@@ -16,6 +16,7 @@ export const projectData = [
       "https://github.com/muntasirmoin/L2-B5-Assignment-6-eWallet-client.git",
     backend:
       " https://github.com/muntasirmoin/L2-B5-Assignment-5-eWallet-server.git",
+    details: "/wallet-details",
   },
 
   // SkillSet Academy
@@ -30,6 +31,7 @@ export const projectData = [
     live: "https://skillset-academy.web.app",
     frontend: "https://github.com/muntasirmoin/skillset-academy-client",
     backend: "https://github.com/muntasirmoin/skillset-server-render",
+    details: "/academy-details",
   },
   // toy chamber
   {
@@ -46,5 +48,6 @@ export const projectData = [
     live: "https://toy-chamber.web.app/",
     frontend: "https://github.com/muntasirmoin/toy-chamber-client",
     backend: "https://github.com/muntasirmoin/toy-chamber-server",
+    details: "/toy-details",
   },
 ];
