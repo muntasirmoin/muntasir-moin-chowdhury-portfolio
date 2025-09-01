@@ -15,10 +15,10 @@ const Projects = () => {
     )`,
         }}
       >
-        <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-12">
+        <h2 className="text-3xl md:text-4xl font-bold text-white text-center">
           Projects
         </h2>
-        <div className="mt-2 h-1 w-20 mx-auto bg-blue-500 rounded-full mb-10 "></div>
+        <div className="mt-4 h-1 w-20 mx-auto bg-blue-500 rounded-full mb-12"></div>
 
         <div className="space-y-16">
           {projectData.map((project, idx) => (

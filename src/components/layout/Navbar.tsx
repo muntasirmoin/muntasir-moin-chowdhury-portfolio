@@ -1,4 +1,4 @@
-import { HouseIcon, InboxIcon, ZapIcon } from "lucide-react";
+import { HouseIcon, InboxIcon, AtSignIcon } from "lucide-react";
 // import Logo from "@/components/logo";
 import { Button } from "@/components/ui/button";
 import {
@@ -10,7 +10,7 @@ import {
 const navigationLinks = [
   { href: "#", label: "Home", icon: HouseIcon, active: true },
   { href: "#projects", label: "Project's", icon: InboxIcon },
-  { href: "#contacts", label: "Contact Me", icon: ZapIcon },
+  { href: "#contacts", label: "Contact Me", icon: AtSignIcon },
 ];
 
 export default function Navbar() {
