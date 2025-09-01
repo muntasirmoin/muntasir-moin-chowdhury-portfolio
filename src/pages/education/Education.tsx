@@ -6,8 +6,7 @@ const educationData = [
     institution: "Metropolitan University, Sylhet",
     year: "2017 - 2021",
     gpa: "3.82",
-    description:
-      "Focused on software development, algorithms, and data structures.",
+    description: "",
   },
 ];
 
