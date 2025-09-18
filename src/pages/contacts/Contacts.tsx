@@ -112,7 +112,7 @@ const Contact = () => {
 
     <section
       id="contacts"
-      className="min-h-screen px-4 py-16 md:px-8 text-white"
+      className="min-h-screen w-full px-4 py-16 md:px-8 text-white"
       style={{
         background: `linear-gradient(
       135deg,
@@ -122,13 +122,13 @@ const Contact = () => {
     )`,
       }}
     >
-      <div className="max-w-6xl mx-auto">
+      <div className="w-full px-4 md:px-10 mx-auto">
         <h2 className="text-3xl font-bold sm:text-4xl text-center mb-6">
           Contact Me
         </h2>
         <div className="mt-2 h-1 w-20 mx-auto bg-blue-500 rounded-full mb-10" />
 
-        <div className="flex flex-col md:flex-row items-center gap-10">
+        <div className="flex flex-col md:flex-row items-center gap-16">
           {/* Left: Image */}
           <div className="md:w-1/2 w-full">
             <div className="w-full h-[400px] aspect-square rounded-xl overflow-hidden shadow-lg">

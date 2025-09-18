@@ -45,7 +45,7 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="px-6 py-20 md:px-16 lg:px-24 text-white"
+      className=" text-white"
       style={{
         background: `linear-gradient(
           135deg,
@@ -55,7 +55,7 @@ const Skills = () => {
         )`,
       }}
     >
-      <div className="max-w-7xl mx-auto">
+      <div className="w-full px-9 py-20 md:px-18 ">
         {/* Header */}
         <h2 className="text-4xl md:text-5xl font-extrabold text-center mb-4 tracking-wide">
           My Skill Set
@@ -63,13 +63,13 @@ const Skills = () => {
         <div className="h-1 w-28 bg-blue-500 mx-auto rounded-full mb-14 shadow-md" />
 
         {/* Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-14">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-14 ">
           {/* Frontend */}
           <div className="bg-white/10 hover:bg-white/20 transition duration-400 backdrop-blur-md p-10 rounded-2xl shadow-xl border border-blue-600/40 hover:shadow-blue-500/30">
             <h3 className="text-3xl font-semibold mb-8 text-blue-400 tracking-wide">
               Frontend Development
             </h3>
-            <ul className="space-y-8">
+            <ul className="space-y-8 ">
               {frontendSkills.map(({ title, subtitle }, idx) => (
                 <li
                   key={idx}

@@ -16,7 +16,7 @@ const navigationLinks = [
 export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 backdrop-blur-sm shadow-sm  bg-slate-900/80 px-4 md:px-6">
-      <div className="flex h-16 items-center justify-between gap-4 max-w-7xl mx-auto">
+      <div className="flex h-16 items-center justify-between gap-4  w-[95%] mx-auto">
         {/* Left: Mobile Menu + Logo */}
         <div className="flex flex-1 items-center gap-4">
           {/* Mobile menu button */}

@@ -34,7 +34,7 @@ const socialLinks = [
 const Footer = () => {
   return (
     <footer
-      className="text-gray-400 py-4 px-4 md:px-8 flex flex-col md:flex-row items-center justify-between gap-4 md:gap-0 text-sm md:text-base"
+      className="text-gray-400 py-4 px-6 md:px-12 flex flex-col md:flex-row items-center justify-between gap-4 md:gap-0 text-sm md:text-base"
       style={{
         background: `linear-gradient(
       135deg,

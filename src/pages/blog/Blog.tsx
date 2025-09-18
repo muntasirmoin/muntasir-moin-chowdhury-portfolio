@@ -5,7 +5,7 @@ const Blog = () => {
   return (
     <section
       id="blog"
-      className="px-4 py-20 md:px-12 text-white"
+      className="w-full px-4 py-20 md:px-12 text-white"
       style={{
         background: `linear-gradient(
           135deg,
@@ -15,7 +15,7 @@ const Blog = () => {
         )`,
       }}
     >
-      <div className="max-w-5xl mx-auto">
+      <div className="w-full px-4 md:px-6 mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
           Blog & Articles
         </h2>

@@ -2,7 +2,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="px-4 py-12 md:py-20"
+      className="w-full px-9 md:px-18 py-12 md:py-20"
       style={{
         background: `linear-gradient(135deg, rgba(8,13,32,0.8), rgba(5,8,24,0.9), rgba(23,37,84,0.8))`,
         backdropFilter: "blur(4px)",
@@ -17,7 +17,7 @@ export default function About() {
       </div>
 
       {/* Flex Layout: Image + Text */}
-      <div className="flex flex-col md:flex-row items-start justify-between gap-8">
+      <div className="flex flex-col md:flex-row items-start justify-between gap-12">
         {/* Left: Image */}
         <div className="relative w-full md:w-1/3 group">
           <div className="p-1 rounded-xl bg-gradient-to-br from-gray-700 via-gray-900 to-black shadow-[0_0_20px_rgba(0,0,0,0.6)]">

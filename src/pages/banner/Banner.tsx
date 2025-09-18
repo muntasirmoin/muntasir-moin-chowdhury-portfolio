@@ -68,13 +68,13 @@ const Banner = () => {
   return (
     <>
       <section
-        className="text-white px-6 md:px-12 py-20"
+        className="text-white px-6 md:px-10 py-20"
         style={{
           background: `linear-gradient(135deg, rgba(8,13,32,0.8), rgba(5,8,24,0.9), rgba(23,37,84,0.8))`,
           backdropFilter: "blur(4px)",
         }}
       >
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-around gap-10">
+        <div className=" w-full mx-auto flex flex-col md:flex-row items-center justify-around gap-10">
           {/* Text Content */}
           <div className="text-center md:text-left max-w-2xl">
             <h1 className="text-4xl md:text-4xl font-extrabold leading-tight mb-4">

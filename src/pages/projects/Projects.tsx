@@ -6,7 +6,7 @@ const Projects = () => {
     <>
       <section
         id="projects"
-        className="px-4 py-12 md:py-20"
+        className=" w-full md:px-6 px-4 py-12 md:py-20"
         style={{
           background: `linear-gradient(
       135deg,
@@ -21,7 +21,7 @@ const Projects = () => {
         </h2>
         <div className="mt-4 h-1 w-20 mx-auto bg-blue-500 rounded-full mb-12"></div>
 
-        <div className="space-y-16">
+        <div className="space-y-16 px-6 md:px-12">
           {projectData.map((project, idx) => (
             <div
               key={idx}
